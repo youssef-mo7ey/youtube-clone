@@ -1,0 +1,216 @@
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    background-color: white;
+    position: fixed;
+    top:0px;
+    right: 0px;
+    left: 0px;
+    z-index: 100;
+    
+}
+
+.leftside{
+
+    display: flex;
+    align-items: center;
+    padding-left: 19px;
+}
+.leftside button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+
+.menu{
+    padding-top: 5px;
+    width: 36px;
+   
+}
+
+.youtube-icon{
+
+    width: 112px;
+    padding-left: 15px;
+    padding-top: 5px;
+
+
+}
+.middleside
+{   
+
+    display: flex;
+    flex:1;
+    max-width: 470px;
+    margin-left: 70px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.middleside button{
+
+    cursor: pointer;
+}
+.search-bar{
+
+    flex: 1;
+    border:1px solid rgb(206, 206, 206) ; 
+    width: 0;
+    min-width: 0;
+    height: 39px;
+    padding-left: 8px;
+    font-size: 15px;
+    font-weight: 500;
+
+
+}
+
+.search-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 42px;
+    margin-left: -1px;
+    border: 1px solid rgb(206, 206, 206);
+    position: relative;
+
+}
+
+.search-icon{
+    padding-top:5px ;
+    width:23px ;
+}
+
+.search-tag,.Vsearch-tag{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -40px;
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    padding: 10px 7px;
+    border-radius: 1px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+
+.search-button:hover .search-tag,.Vsearch-button:hover .Vsearch-tag{
+
+    opacity: 1;
+}
+
+
+
+
+.Vsearch-button{
+
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    border: none ;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 19px;
+
+}
+.Vsearch-icon{
+    display: flex;
+    align-items: center;
+    width: 24px;
+    padding-left: 1px;
+}
+
+.rightside
+{
+
+
+    display: flex;
+    flex: 0.208;
+    align-items: center;
+    justify-content: space-between;
+    width: 245px;
+
+
+    
+}
+
+.create-tag,.yt-apps-tag,.notifications-tag{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -40px;
+    background-color: gray;
+    color: white;
+    font-size: 12px;
+    padding: 10px 7px;
+    border-radius: 1px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+
+.rightside button:hover .create-tag, .rightside button:hover .yt-apps-tag,.rightside button:hover .notifications-tag{
+
+    opacity: 1;
+}
+
+.rightside button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 36px;
+    padding-top: 5px;
+}
+
+.notification-div{
+    position: relative ;
+}
+.notify-num{
+
+    position: absolute;
+    background-color: red;
+    color: wheat;
+    font-weight:600 ;
+    right: 0;
+    top:0;
+    width:16px;
+    height: 16px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-channel{
+
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid black;
+    margin-right:17px ;
+}
+
+.my-channel-icon{
+    width: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
